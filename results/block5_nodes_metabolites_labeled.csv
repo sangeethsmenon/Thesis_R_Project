@@ -1,0 +1,250 @@
+name,type
+3-Hydroxybutyrate,metabolite
+Acetate,metabolite
+Acetoacetate,metabolite
+Acetone,metabolite
+Alanine,metabolite
+Albumin,metabolite
+Apolipoprotein A1,metabolite
+Apolipoprotein B,metabolite
+Apolipoprotein B to Apolipoprotein A1 ratio,metabolite
+Average Diameter for HDL Particles,metabolite
+Average Diameter for LDL Particles,metabolite
+Average Diameter for VLDL Particles,metabolite
+Cholesterol in Chylomicrons and Extremely Large VLDL,metabolite
+Cholesterol in IDL,metabolite
+Cholesterol in Large HDL,metabolite
+Cholesterol in Large LDL,metabolite
+Cholesterol in Large VLDL,metabolite
+Cholesterol in Medium HDL,metabolite
+Cholesterol in Medium LDL,metabolite
+Cholesterol in Medium VLDL,metabolite
+Cholesterol in Small HDL,metabolite
+Cholesterol in Small LDL,metabolite
+Cholesterol in Small VLDL,metabolite
+Cholesterol in Very Large HDL,metabolite
+Cholesterol in Very Large VLDL,metabolite
+Cholesterol in Very Small VLDL,metabolite
+Cholesterol to Total Lipids in Chylomicrons and Extremely Large VLDL percentage,metabolite
+Cholesterol to Total Lipids in IDL percentage,metabolite
+Cholesterol to Total Lipids in Large HDL percentage,metabolite
+Cholesterol to Total Lipids in Large LDL percentage,metabolite
+Cholesterol to Total Lipids in Large VLDL percentage,metabolite
+Cholesterol to Total Lipids in Medium HDL percentage,metabolite
+Cholesterol to Total Lipids in Medium LDL percentage,metabolite
+Cholesterol to Total Lipids in Medium VLDL percentage,metabolite
+Cholesterol to Total Lipids in Small HDL percentage,metabolite
+Cholesterol to Total Lipids in Small LDL percentage,metabolite
+Cholesterol to Total Lipids in Small VLDL percentage,metabolite
+Cholesterol to Total Lipids in Very Large HDL percentage,metabolite
+Cholesterol to Total Lipids in Very Large VLDL percentage,metabolite
+Cholesterol to Total Lipids in Very Small VLDL percentage,metabolite
+Cholesteryl Esters in Chylomicrons and Extremely Large VLDL,metabolite
+Cholesteryl Esters in HDL,metabolite
+Cholesteryl Esters in IDL,metabolite
+Cholesteryl Esters in LDL,metabolite
+Cholesteryl Esters in Large HDL,metabolite
+Cholesteryl Esters in Large LDL,metabolite
+Cholesteryl Esters in Large VLDL,metabolite
+Cholesteryl Esters in Medium HDL,metabolite
+Cholesteryl Esters in Medium LDL,metabolite
+Cholesteryl Esters in Medium VLDL,metabolite
+Cholesteryl Esters in Small HDL,metabolite
+Cholesteryl Esters in Small LDL,metabolite
+Cholesteryl Esters in Small VLDL,metabolite
+Cholesteryl Esters in VLDL,metabolite
+Cholesteryl Esters in Very Large HDL,metabolite
+Cholesteryl Esters in Very Large VLDL,metabolite
+Cholesteryl Esters in Very Small VLDL,metabolite
+Cholesteryl Esters to Total Lipids in Chylomicrons and Extremely Large VLDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in IDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Large HDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Large LDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Large VLDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Medium HDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Medium LDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Medium VLDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Small HDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Small LDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Small VLDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Very Large HDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Very Large VLDL percentage,metabolite
+Cholesteryl Esters to Total Lipids in Very Small VLDL percentage,metabolite
+Citrate,metabolite
+Clinical LDL Cholesterol,metabolite
+Concentration of Chylomicrons and Extremely Large VLDL Particles,metabolite
+Concentration of HDL Particles,metabolite
+Concentration of IDL Particles,metabolite
+Concentration of LDL Particles,metabolite
+Concentration of Large HDL Particles,metabolite
+Concentration of Large LDL Particles,metabolite
+Concentration of Large VLDL Particles,metabolite
+Concentration of Medium HDL Particles,metabolite
+Concentration of Medium LDL Particles,metabolite
+Concentration of Medium VLDL Particles,metabolite
+Concentration of Small HDL Particles,metabolite
+Concentration of Small LDL Particles,metabolite
+Concentration of Small VLDL Particles,metabolite
+Concentration of VLDL Particles,metabolite
+Concentration of Very Large HDL Particles,metabolite
+Concentration of Very Large VLDL Particles,metabolite
+Concentration of Very Small VLDL Particles,metabolite
+Creatinine,metabolite
+Degree of Unsaturation,metabolite
+Docosahexaenoic Acid,metabolite
+Docosahexaenoic Acid to Total Fatty Acids percentage,metabolite
+Free Cholesterol in Chylomicrons and Extremely Large VLDL,metabolite
+Free Cholesterol in HDL,metabolite
+Free Cholesterol in IDL,metabolite
+Free Cholesterol in LDL,metabolite
+Free Cholesterol in Large HDL,metabolite
+Free Cholesterol in Large LDL,metabolite
+Free Cholesterol in Large VLDL,metabolite
+Free Cholesterol in Medium HDL,metabolite
+Free Cholesterol in Medium LDL,metabolite
+Free Cholesterol in Medium VLDL,metabolite
+Free Cholesterol in Small HDL,metabolite
+Free Cholesterol in Small LDL,metabolite
+Free Cholesterol in Small VLDL,metabolite
+Free Cholesterol in VLDL,metabolite
+Free Cholesterol in Very Large HDL,metabolite
+Free Cholesterol in Very Large VLDL,metabolite
+Free Cholesterol in Very Small VLDL,metabolite
+Free Cholesterol to Total Lipids in Chylomicrons and Extremely Large VLDL percentage,metabolite
+Free Cholesterol to Total Lipids in IDL percentage,metabolite
+Free Cholesterol to Total Lipids in Large HDL percentage,metabolite
+Free Cholesterol to Total Lipids in Large LDL percentage,metabolite
+Free Cholesterol to Total Lipids in Large VLDL percentage,metabolite
+Free Cholesterol to Total Lipids in Medium HDL percentage,metabolite
+Free Cholesterol to Total Lipids in Medium LDL percentage,metabolite
+Free Cholesterol to Total Lipids in Medium VLDL percentage,metabolite
+Free Cholesterol to Total Lipids in Small HDL percentage,metabolite
+Free Cholesterol to Total Lipids in Small LDL percentage,metabolite
+Free Cholesterol to Total Lipids in Small VLDL percentage,metabolite
+Free Cholesterol to Total Lipids in Very Large HDL percentage,metabolite
+Free Cholesterol to Total Lipids in Very Large VLDL percentage,metabolite
+Free Cholesterol to Total Lipids in Very Small VLDL percentage,metabolite
+Glucose,metabolite
+Glutamine,metabolite
+Glycine,metabolite
+Glycoprotein Acetyls,metabolite
+HDL Cholesterol,metabolite
+Histidine,metabolite
+Isoleucine,metabolite
+LDL Cholesterol,metabolite
+Lactate,metabolite
+Leucine,metabolite
+Linoleic Acid,metabolite
+Linoleic Acid to Total Fatty Acids percentage,metabolite
+Monounsaturated Fatty Acids,metabolite
+Monounsaturated Fatty Acids to Total Fatty Acids percentage,metabolite
+Omega-3 Fatty Acids,metabolite
+Omega-3 Fatty Acids to Total Fatty Acids percentage,metabolite
+Omega-6 Fatty Acids,metabolite
+Omega-6 Fatty Acids to Omega-3 Fatty Acids ratio,metabolite
+Omega-6 Fatty Acids to Total Fatty Acids percentage,metabolite
+Phenylalanine,metabolite
+Phosphatidylcholines,metabolite
+Phosphoglycerides,metabolite
+Phospholipids in Chylomicrons and Extremely Large VLDL,metabolite
+Phospholipids in HDL,metabolite
+Phospholipids in IDL,metabolite
+Phospholipids in LDL,metabolite
+Phospholipids in Large HDL,metabolite
+Phospholipids in Large LDL,metabolite
+Phospholipids in Large VLDL,metabolite
+Phospholipids in Medium HDL,metabolite
+Phospholipids in Medium LDL,metabolite
+Phospholipids in Medium VLDL,metabolite
+Phospholipids in Small HDL,metabolite
+Phospholipids in Small LDL,metabolite
+Phospholipids in Small VLDL,metabolite
+Phospholipids in VLDL,metabolite
+Phospholipids in Very Large HDL,metabolite
+Phospholipids in Very Large VLDL,metabolite
+Phospholipids in Very Small VLDL,metabolite
+Phospholipids to Total Lipids in Chylomicrons and Extremely Large VLDL percentage,metabolite
+Phospholipids to Total Lipids in IDL percentage,metabolite
+Phospholipids to Total Lipids in Large HDL percentage,metabolite
+Phospholipids to Total Lipids in Large LDL percentage,metabolite
+Phospholipids to Total Lipids in Large VLDL percentage,metabolite
+Phospholipids to Total Lipids in Medium HDL percentage,metabolite
+Phospholipids to Total Lipids in Medium LDL percentage,metabolite
+Phospholipids to Total Lipids in Medium VLDL percentage,metabolite
+Phospholipids to Total Lipids in Small HDL percentage,metabolite
+Phospholipids to Total Lipids in Small LDL percentage,metabolite
+Phospholipids to Total Lipids in Small VLDL percentage,metabolite
+Phospholipids to Total Lipids in Very Large HDL percentage,metabolite
+Phospholipids to Total Lipids in Very Large VLDL percentage,metabolite
+Phospholipids to Total Lipids in Very Small VLDL percentage,metabolite
+Polyunsaturated Fatty Acids,metabolite
+Polyunsaturated Fatty Acids to Monounsaturated Fatty Acids ratio,metabolite
+Polyunsaturated Fatty Acids to Total Fatty Acids percentage,metabolite
+Pyruvate,metabolite
+"Remnant Cholesterol (Non-HDL, Non-LDL -Cholesterol)",metabolite
+Saturated Fatty Acids,metabolite
+Saturated Fatty Acids to Total Fatty Acids percentage,metabolite
+Sphingomyelins,metabolite
+Total Cholesterol,metabolite
+Total Cholesterol Minus HDL-C,metabolite
+Total Cholines,metabolite
+Total Concentration of Branched-Chain Amino Acids (Leucine + Isoleucine + Valine),metabolite
+Total Concentration of Lipoprotein Particles,metabolite
+Total Esterified Cholesterol,metabolite
+Total Fatty Acids,metabolite
+Total Free Cholesterol,metabolite
+Total Lipids in Chylomicrons and Extremely Large VLDL,metabolite
+Total Lipids in HDL,metabolite
+Total Lipids in IDL,metabolite
+Total Lipids in LDL,metabolite
+Total Lipids in Large HDL,metabolite
+Total Lipids in Large LDL,metabolite
+Total Lipids in Large VLDL,metabolite
+Total Lipids in Lipoprotein Particles,metabolite
+Total Lipids in Medium HDL,metabolite
+Total Lipids in Medium LDL,metabolite
+Total Lipids in Medium VLDL,metabolite
+Total Lipids in Small HDL,metabolite
+Total Lipids in Small LDL,metabolite
+Total Lipids in Small VLDL,metabolite
+Total Lipids in VLDL,metabolite
+Total Lipids in Very Large HDL,metabolite
+Total Lipids in Very Large VLDL,metabolite
+Total Lipids in Very Small VLDL,metabolite
+Total Phospholipids in Lipoprotein Particles,metabolite
+Total Triglycerides,metabolite
+Triglycerides in Chylomicrons and Extremely Large VLDL,metabolite
+Triglycerides in HDL,metabolite
+Triglycerides in IDL,metabolite
+Triglycerides in LDL,metabolite
+Triglycerides in Large HDL,metabolite
+Triglycerides in Large LDL,metabolite
+Triglycerides in Large VLDL,metabolite
+Triglycerides in Medium HDL,metabolite
+Triglycerides in Medium LDL,metabolite
+Triglycerides in Medium VLDL,metabolite
+Triglycerides in Small HDL,metabolite
+Triglycerides in Small LDL,metabolite
+Triglycerides in Small VLDL,metabolite
+Triglycerides in VLDL,metabolite
+Triglycerides in Very Large HDL,metabolite
+Triglycerides in Very Large VLDL,metabolite
+Triglycerides in Very Small VLDL,metabolite
+Triglycerides to Phosphoglycerides ratio,metabolite
+Triglycerides to Total Lipids in Chylomicrons and Extremely Large VLDL percentage,metabolite
+Triglycerides to Total Lipids in IDL percentage,metabolite
+Triglycerides to Total Lipids in Large HDL percentage,metabolite
+Triglycerides to Total Lipids in Large LDL percentage,metabolite
+Triglycerides to Total Lipids in Large VLDL percentage,metabolite
+Triglycerides to Total Lipids in Medium HDL percentage,metabolite
+Triglycerides to Total Lipids in Medium LDL percentage,metabolite
+Triglycerides to Total Lipids in Medium VLDL percentage,metabolite
+Triglycerides to Total Lipids in Small HDL percentage,metabolite
+Triglycerides to Total Lipids in Small LDL percentage,metabolite
+Triglycerides to Total Lipids in Small VLDL percentage,metabolite
+Triglycerides to Total Lipids in Very Large HDL percentage,metabolite
+Triglycerides to Total Lipids in Very Large VLDL percentage,metabolite
+Triglycerides to Total Lipids in Very Small VLDL percentage,metabolite
+Tyrosine,metabolite
+VLDL Cholesterol,metabolite
+Valine,metabolite

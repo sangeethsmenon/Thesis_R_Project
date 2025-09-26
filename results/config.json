@@ -1,0 +1,20 @@
+{
+  "project_name": "Thesis_R_Project",
+  "seed": 42,
+  "paths": {
+    "data_raw": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/data/raw",
+    "data_processed": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/data/processed",
+    "results": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results",
+    "figures": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/figures",
+    "logs": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/logs"
+  },
+  "files": {
+    "metabolome": "NMR_metabolome_n249_SN13411_20250829.txt",
+    "proteome": "NMR_proteome_n2923_SN13411_20250829.txt"
+  },
+  "thresholds": {
+    "metab_feat": 0.05,
+    "prot_feat": 0.3,
+    "prot_row": 0.4
+  }
+}

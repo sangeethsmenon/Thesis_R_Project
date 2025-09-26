@@ -1,0 +1,19 @@
+BLOCK 1 QC SUMMARY
+Metabolome features: n=249
+  % missing (pct): min=0 med=0 p95=0.38 max=4.5
+  Over 5% missing: 0.0%
+Proteome features: n=2923
+  % missing (pct): min=1.45 med=22.2 p95=24.77 max=99.63
+  Over 30% missing: 0.1%
+Proteome samples: n=13411
+  % missing (pct): min=0.03 med=2.6 p95=50.5 max=97.43
+  Over 40% missing: 22.1%
+Missingness ~ covariates (metabolome): features=63 with q_sex<0.05=12 (19%); q_age<0.05=12 (19%)
+Missingness ~ covariates (proteome): features=2923 with q_sex<0.05=0 (0%); q_age<0.05=0 (0%)
+Retention counts:
+# A tibble: 3 × 3
+  dataset            kept total
+  <chr>             <dbl> <dbl>
+1 metabolome          249   249
+2 proteome_features  2919  2923
+3 proteome_samples  10452 13411

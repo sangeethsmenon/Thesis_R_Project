@@ -1,0 +1,2 @@
+view,n_F,n_M,n_tests,alpha,min_abs_r,F_sig,M_sig,diff_sig
+sex_stratified_age_adjusted,5521,4638,726831,0.05,0.1,169605,147521,8361

@@ -1,0 +1,3 @@
+"dataset","n_samples","n_features","n_cells","n_imputed_cells","pct_imputed_cells","method","softImpute_elapsed_sec"
+"metabolome",10452,249,2602548,3234,0.124262837803568,"median-per-feature",NA
+"proteome",10452,2919,30509388,836231,2.74089732642294,"softImpute ALS; rank.max=50; lambda=225",76
