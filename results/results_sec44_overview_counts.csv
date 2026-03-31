@@ -1,0 +1,7 @@
+metric,value
+Mapped protein--metabolite edges,5188
+Proteins with ≥1 mapped edge,257
+Metabolites with ≥1 mapped edge,245
+Protein modules receiving ≥1 mapped edge,3
+Metabolite--module tests (Fisher),440
+Significant metabolite--module pairs (q ≤ 0.05),232

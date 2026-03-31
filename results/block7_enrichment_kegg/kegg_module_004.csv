@@ -1,0 +1,2 @@
+module,category,subcategory,ID,Description,GeneRatio,BgRatio,RichFactor,FoldEnrichment,zScore,pvalue,p.adjust,qvalue,geneID,Count
+4,Environmental Information Processing,Signaling molecules and interaction,hsa04060,Cytokine-cytokine receptor interaction,9/45,298/9512,0.030201342281879196,6.383892617449665,6.510188693370476,8.460018933946662e-6,8.798419691304529e-4,8.192860441295715e-4,3952/51330/8797/9518/8771/8795/1435/55540/23495,9

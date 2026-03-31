@@ -1,0 +1,26 @@
+component,side,method,name,weight,abs_w,rank,label
+4,metabolites,classic,fid_23418,-82.47559148201722,82.47559148201722,1,Cholesteryl Esters in HDL
+4,metabolites,classic,fid_23406,73.5813253572652,73.5813253572652,2,HDL Cholesterol
+4,metabolites,classic,fid_23442,64.35653627165287,64.35653627165287,3,Total Fatty Acids
+4,metabolites,classic,fid_23610,61.837645281103434,61.837645281103434,4,Cholesterol to Total Lipids in IDL percentage
+4,metabolites,classic,fid_23630,54.87976045841685,54.87976045841685,5,Cholesterol to Total Lipids in Very Large HDL percentage
+4,metabolites,classic,fid_23426,54.509662018831925,54.509662018831925,6,Total Lipids in HDL
+4,metabolites,classic,fid_23430,53.23372276456642,53.23372276456642,7,Concentration of HDL Particles
+4,metabolites,classic,fid_23429,-46.39236101627627,46.39236101627627,8,Concentration of LDL Particles
+4,metabolites,classic,fid_23439,45.25802651987651,45.25802651987651,9,Apolipoprotein B
+4,metabolites,classic,fid_23403,44.84389506886613,44.84389506886613,10,VLDL Cholesterol
+4,metabolites,classic,fid_23453,44.658497027349334,44.658497027349334,11,Polyunsaturated Fatty Acids to Total Fatty Acids percentage
+4,metabolites,classic,fid_23646,-43.33070907165924,43.33070907165924,12,Cholesteryl Esters to Total Lipids in Small HDL percentage
+4,metabolites,classic,fid_23573,42.5004136566779,42.5004136566779,13,Total Lipids in Small HDL
+4,metabolites,classic,fid_23613,41.17423932368363,41.17423932368363,14,Triglycerides to Total Lipids in IDL percentage
+4,metabolites,classic,fid_23620,-40.014131343677306,40.014131343677306,15,Cholesterol to Total Lipids in Medium LDL percentage
+4,metabolites,classic,fid_23519,-36.13891563071942,36.13891563071942,16,Cholesterol in Very Small VLDL
+4,metabolites,classic,fid_23621,36.0865506877959,36.0865506877959,17,Cholesteryl Esters to Total Lipids in Medium LDL percentage
+4,metabolites,classic,fid_23411,-34.9883717450198,34.9883717450198,18,Total Phospholipids in Lipoprotein Particles
+4,metabolites,classic,fid_23622,34.169488645836374,34.169488645836374,19,Free Cholesterol to Total Lipids in Medium LDL percentage
+4,metabolites,classic,fid_23632,-31.324495712902273,31.324495712902273,20,Free Cholesterol to Total Lipids in Very Large HDL percentage
+4,metabolites,classic,fid_23615,31.07996258525792,31.07996258525792,21,Cholesterol to Total Lipids in Large LDL percentage
+4,metabolites,classic,fid_23572,-30.99305062359659,30.99305062359659,22,Concentration of Small HDL Particles
+4,metabolites,classic,fid_23423,30.21134926903283,30.21134926903283,23,Total Lipids in Lipoprotein Particles
+4,metabolites,classic,fid_23631,-29.70382586808794,29.70382586808794,24,Cholesteryl Esters to Total Lipids in Very Large HDL percentage
+4,metabolites,classic,fid_23625,29.34857418001584,29.34857418001584,25,Cholesterol to Total Lipids in Small LDL percentage

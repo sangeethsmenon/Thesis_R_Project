@@ -1,0 +1,26 @@
+component,side,method,name,weight,abs_w,rank,label
+4,metabolites,scca,fid_23442,0.3714692575633023,0.3714692575633023,1,Total Fatty Acids
+4,metabolites,scca,fid_23420,0.33525588213422647,0.33525588213422647,2,Free Cholesterol in VLDL
+4,metabolites,scca,fid_23499,0.31532421330109484,0.31532421330109484,3,Cholesteryl Esters in Large VLDL
+4,metabolites,scca,fid_23428,0.30416932590199386,0.30416932590199386,4,Concentration of VLDL Particles
+4,metabolites,scca,fid_23482,0.2688366932935696,0.2688366932935696,5,Total Lipids in Chylomicrons and Extremely Large VLDL
+4,metabolites,scca,fid_23510,0.2566230019713187,0.2566230019713187,6,Total Lipids in Small VLDL
+4,metabolites,scca,fid_23503,0.2553779583286907,0.2553779583286907,7,Total Lipids in Medium VLDL
+4,metabolites,scca,fid_23495,0.24618325571406405,0.24618325571406405,8,Concentration of Large VLDL Particles
+4,metabolites,scca,fid_23485,0.2074778783507089,0.2074778783507089,9,Cholesteryl Esters in Chylomicrons and Extremely Large VLDL
+4,metabolites,scca,fid_23589,0.17397139656521107,0.17397139656521107,10,Phospholipids to Total Lipids in Large VLDL percentage
+4,metabolites,scca,fid_23403,0.16924537310069282,0.16924537310069282,11,VLDL Cholesterol
+4,metabolites,scca,fid_23624,-0.16724520262533565,0.16724520262533565,12,Phospholipids to Total Lipids in Small LDL percentage
+4,metabolites,scca,fid_23511,0.15355615671430928,0.15355615671430928,13,Phospholipids in Small VLDL
+4,metabolites,scca,fid_23492,0.14398470142011432,0.14398470142011432,14,Cholesteryl Esters in Very Large VLDL
+4,metabolites,scca,fid_23626,0.1408148728383576,0.1408148728383576,15,Cholesteryl Esters to Total Lipids in Small LDL percentage
+4,metabolites,scca,fid_23513,0.13363700275563403,0.13363700275563403,16,Cholesteryl Esters in Small VLDL
+4,metabolites,scca,fid_23502,0.13164113120834883,0.13164113120834883,17,Concentration of Medium VLDL Particles
+4,metabolites,scca,fid_23509,0.11430895150835534,0.11430895150835534,18,Concentration of Small VLDL Particles
+4,metabolites,scca,fid_23504,0.10187178989509048,0.10187178989509048,19,Phospholipids in Medium VLDL
+4,metabolites,scca,fid_23486,0.07857471655245847,0.07857471655245847,20,Free Cholesterol in Chylomicrons and Extremely Large VLDL
+4,metabolites,scca,fid_23515,0.07632557091083549,0.07632557091083549,21,Triglycerides in Small VLDL
+4,metabolites,scca,fid_23512,0.06578914187333917,0.06578914187333917,22,Cholesterol in Small VLDL
+4,metabolites,scca,fid_23628,0.06308254074286399,0.06308254074286399,23,Triglycerides to Total Lipids in Small LDL percentage
+4,metabolites,scca,fid_23586,-0.0606723949054208,0.0606723949054208,24,Cholesteryl Esters to Total Lipids in Very Large VLDL percentage
+4,metabolites,scca,fid_23573,0.05988405981259227,0.05988405981259227,25,Total Lipids in Small HDL

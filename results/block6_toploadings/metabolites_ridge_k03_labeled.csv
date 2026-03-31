@@ -1,0 +1,26 @@
+component,side,method,name,weight,abs_w,rank,label
+3,metabolites,ridge,fid_23529,1.2660416982373432,1.2660416982373432,1,Triglycerides in IDL
+3,metabolites,ridge,fid_23550,0.9177685983342488,0.9177685983342488,2,Triglycerides in Small LDL
+3,metabolites,ridge,fid_23532,0.87254252432337,0.87254252432337,3,Phospholipids in Large LDL
+3,metabolites,ridge,fid_23515,0.8069740253334035,0.8069740253334035,4,Triglycerides in Small VLDL
+3,metabolites,ridge,fid_23578,-0.7493244921093676,0.7493244921093676,5,Triglycerides in Small HDL
+3,metabolites,ridge,fid_23437,-0.6806255243883831,0.6806255243883831,6,Phosphatidylcholines
+3,metabolites,ridge,fid_23513,-0.5796964625715507,0.5796964625715507,7,Cholesteryl Esters in Small VLDL
+3,metabolites,ridge,fid_23577,-0.5792242157417956,0.5792242157417956,8,Free Cholesterol in Small HDL
+3,metabolites,ridge,fid_23501,0.5587102683822327,0.5587102683822327,9,Triglycerides in Large VLDL
+3,metabolites,ridge,fid_23522,-0.5501256015947406,0.5501256015947406,10,Triglycerides in Very Small VLDL
+3,metabolites,ridge,fid_23571,0.5354660219270388,0.5354660219270388,11,Triglycerides in Medium HDL
+3,metabolites,ridge,fid_23530,0.5338277482891169,0.5338277482891169,12,Concentration of Large LDL Particles
+3,metabolites,ridge,fid_23553,0.5334833132576225,0.5334833132576225,13,Phospholipids in Very Large HDL
+3,metabolites,ridge,fid_23449,-0.5294050711648585,0.5294050711648585,14,Linoleic Acid
+3,metabolites,ridge,fid_23481,-0.513073109773366,0.513073109773366,15,Concentration of Chylomicrons and Extremely Large VLDL Particles
+3,metabolites,ridge,fid_23413,0.5047654329614482,0.5047654329614482,16,Phospholipids in LDL
+3,metabolites,ridge,fid_23535,-0.4984383391460573,0.4984383391460573,17,Free Cholesterol in Large LDL
+3,metabolites,ridge,fid_23504,-0.4963969801562441,0.4963969801562441,18,Phospholipids in Medium VLDL
+3,metabolites,ridge,fid_23549,0.4897019544734937,0.4897019544734937,19,Free Cholesterol in Small LDL
+3,metabolites,ridge,fid_23415,-0.4717720558342532,0.4717720558342532,20,Total Esterified Cholesterol
+3,metabolites,ridge,fid_23419,0.46850041980586826,0.46850041980586826,21,Total Free Cholesterol
+3,metabolites,ridge,fid_23507,-0.4657839035207283,0.4657839035207283,22,Free Cholesterol in Medium VLDL
+3,metabolites,ridge,fid_23597,0.4559701868628676,0.4559701868628676,23,Free Cholesterol to Total Lipids in Medium VLDL percentage
+3,metabolites,ridge,fid_23422,-0.4320771748062572,0.4320771748062572,24,Free Cholesterol in HDL
+3,metabolites,ridge,fid_23521,-0.4275564105821055,0.4275564105821055,25,Free Cholesterol in Very Small VLDL

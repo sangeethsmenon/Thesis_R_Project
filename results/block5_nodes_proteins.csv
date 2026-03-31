@@ -707,6 +707,7 @@ CSNK2A1,protein
 CSPG4,protein
 CSPG5,protein
 CSRP3,protein
+CST1,protein
 CST3,protein
 CST5,protein
 CST6,protein
@@ -1170,6 +1171,7 @@ GKN1,protein
 GLA,protein
 GLB1,protein
 GLI2,protein
+GLIPR1,protein
 GLO1,protein
 GLOD4,protein
 GLP1R,protein
@@ -1885,6 +1887,7 @@ NPDC1,protein
 NPHS1,protein
 NPHS2,protein
 NPL,protein
+NPM1,protein
 NPPB,protein
 NPPC,protein
 NPR1,protein
@@ -1986,6 +1989,7 @@ PCDH7,protein
 PCDH9,protein
 PCDHB15,protein
 PCNA,protein
+PCOLCE,protein
 PCSK7,protein
 PCSK9,protein
 PCYT2,protein

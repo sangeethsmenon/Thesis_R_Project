@@ -1,0 +1,10 @@
+PM edge table: block5_edges_filtered_metab_quantile_pruned.csv
+Cut strategy: quantile
+Quantile (if used): 0.95
+Hard cutoff (if used): 0.3
+Chosen cutoff abs_r: 0.463103635448899
+Two-layer Plot 1: top_edges_for_twolayer_main = 10
+Two-layer Plot 2: top_edges_for_twolayer_div  = 10
+Two-layer metabolite wrap_width_bipartite = 22
+Ring plot: proteins labeled on INNER track; metabolites labeled on OUTER track
+Ring tracks: outer height=0.1, inner height=0.04, track.margin=0.001, 0.001, outer_label_offset=0.08, inner_label_offset=0.05, png_wh=5200

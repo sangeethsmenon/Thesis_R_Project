@@ -1,12 +1,13 @@
-packages <- c("tidyverse","here","splines")
-need <- setdiff(packages, rownames(installed.packages()))
-if (length(need)) install.packages(need, repos = "https://cloud.r-project.org")
-invisible(lapply(packages, library, character.only = TRUE))
+# --- 05b_block4_diagnostics.R (NA-aware, no imputation) ----------------------
 
-suppressPackageStartupMessages({ library(jsonlite) })
+suppressPackageStartupMessages({
+  library(tidyverse); library(here); library(jsonlite); library(splines)
+})
+
+# ---------------- Standard loader (config + QC TSVs + keep_idx) --------------
 if (!exists("config")) {
-  cfg_rds  <- here::here("results","config.rds")
-  cfg_json <- here::here("results","config.json")
+  cfg_rds  <- here("results","config.rds")
+  cfg_json <- here("results","config.json")
   if (file.exists(cfg_rds)) {
     config <- readRDS(cfg_rds)
   } else if (file.exists(cfg_json)) {
@@ -16,102 +17,158 @@ if (!exists("config")) {
   }
 }
 
-b3_path <- file.path(config$paths$data_processed, "block3_scaled_pca_outliers.rds")
-if (!file.exists(b3_path)) stop("Block 3 outputs not found: ", b3_path)
-b3 <- readRDS(b3_path)
+prot_qc_path  <- file.path(config$paths$data_processed, "proteome_qc.tsv")
+metab_qc_path <- file.path(config$paths$data_processed, "metabolome_qc.tsv")
+b3_rds        <- file.path(config$paths$data_processed, "block3_scaled_pca_outliers.rds")
+stopifnot(file.exists(prot_qc_path), file.exists(metab_qc_path), file.exists(b3_rds))
 
+proteome   <- readr::read_tsv(prot_qc_path,  show_col_types = FALSE)
+metabolome <- readr::read_tsv(metab_qc_path, show_col_types = FALSE)
+b3 <- readRDS(b3_rds)
+
+keep_idx <- b3$kept_idx
+proteome   <- proteome  [keep_idx, , drop = FALSE]
+metabolome <- metabolome[keep_idx, , drop = FALSE]
+stopifnot(nrow(proteome) == nrow(metabolome), all(proteome$sid == metabolome$sid))
+
+# ----------------------------- Setup -----------------------------------------
 id_cols <- c("sid","sex","age_in0")
-covars <- b3$covars_clean
+covars <- metabolome %>% select(all_of(id_cols))
 covars$sex <- factor(covars$sex)
 sex_levels <- levels(covars$sex)
 
-X_full   <- model.matrix(~ sex + splines::ns(age_in0, df = 3), data = covars)
-X_nosex  <- model.matrix(~ splines::ns(age_in0, df = 3), data = covars)
-X_noage  <- model.matrix(~ sex, data = covars)
+# Model matrices (on the full covariate frame; we will subset rows per feature)
+X_full  <- model.matrix(~ sex + splines::ns(age_in0, df = 3), data = covars)
+X_nosex <- model.matrix(~ splines::ns(age_in0, df = 3), data = covars)
+X_noage <- model.matrix(~ sex, data = covars)
 
-XtX_f  <- crossprod(X_full);  XtX_f_inv  <- solve(XtX_f)
-XtX_ns <- crossprod(X_nosex); XtX_ns_inv <- solve(XtX_ns)
-XtX_na <- crossprod(X_noage); XtX_na_inv <- solve(XtX_na)
-
-n <- nrow(X_full)
 k_full  <- ncol(X_full)
-df_sex  <- ncol(X_full) - ncol(X_nosex)
-df_age  <- ncol(X_full) - ncol(X_noage)
+k_nosex <- ncol(X_nosex)
+k_noage <- ncol(X_noage)
 
-analyze <- function(df_num, dataset_label){
-  Y <- as.matrix(df_num)
-  beta_f  <- XtX_f_inv  %*% crossprod(X_full,  Y)
-  e_full  <- Y - X_full  %*% beta_f
-  SSE_f   <- colSums(e_full^2)
-  tss     <- colSums((Y - matrix(colMeans(Y), n, ncol(Y), byrow = TRUE))^2)
-  R2_all  <- pmax(0, 1 - SSE_f / pmax(1e-12, tss))
+# --------------- Per-feature NA-aware diagnostics helper ---------------------
+diag_one <- function(y, X_full, X_nosex, X_noage) {
+  ok <- !is.na(y)
+  n_j <- sum(ok)
   
-  beta_ns <- XtX_ns_inv %*% crossprod(X_nosex, Y)
-  e_ns    <- Y - X_nosex %*% beta_ns
-  SSE_ns  <- colSums(e_ns^2)
+  if (n_j <= max(k_full, k_nosex, k_noage) + 1L) {
+    return(tibble(
+      n = n_j, R2_all = NA_real_, partR2_sex = NA_real_, partR2_age = NA_real_,
+      p_sex = NA_real_, p_age = NA_real_, beta_sex = NA_real_
+    ))
+  }
   
-  beta_na <- XtX_na_inv %*% crossprod(X_noage, Y)
-  e_na    <- Y - X_noage %*% beta_na
-  SSE_na  <- colSums(e_na^2)
+  yj      <- y[ok]
+  Xf      <- X_full [ok, , drop = FALSE]
+  Xns     <- X_nosex[ok, , drop = FALSE]
+  Xna     <- X_noage[ok, , drop = FALSE]
   
-  F_sex <- ((SSE_ns - SSE_f) / df_sex) / (SSE_f / pmax(1, (n - k_full)))
-  F_age <- ((SSE_na - SSE_f) / df_age) / (SSE_f / pmax(1, (n - k_full)))
-  p_sex <- pf(F_sex, df_sex, n - k_full, lower.tail = FALSE)
-  p_age <- pf(F_age, df_age, n - k_full, lower.tail = FALSE)
+  # Full model
+  betaf   <- solve(crossprod(Xf), crossprod(Xf, yj))
+  ef      <- yj - drop(Xf %*% betaf)
+  SSEf    <- sum(ef^2)
   
-  partR2_sex <- pmax(0, 1 - SSE_f / pmax(1e-12, SSE_ns))
-  partR2_age <- pmax(0, 1 - SSE_f / pmax(1e-12, SSE_na))
+  # Reduced models
+  betans  <- solve(crossprod(Xns), crossprod(Xns, yj))
+  ens     <- yj - drop(Xns %*% betans)
+  SSEns   <- sum(ens^2)
   
-  sex_cols <- grepl("^sex", colnames(X_full))
-  beta_sex <- rep(NA_real_, ncol(Y))
-  if (sum(sex_cols) == 1) beta_sex <- as.numeric(beta_f[sex_cols, , drop = FALSE])
+  betana  <- solve(crossprod(Xna), crossprod(Xna, yj))
+  ena     <- yj - drop(Xna %*% betana)
+  SSEna   <- sum(ena^2)
+  
+  # R2 and partial R2 (all computed on the same subset of rows)
+  ybar    <- mean(yj)
+  TSS     <- sum((yj - ybar)^2)
+  R2_all  <- max(0, 1 - SSEf / max(1e-12, TSS))
+  partR2_sex <- max(0, 1 - SSEf / max(1e-12, SSEns))
+  partR2_age <- max(0, 1 - SSEf / max(1e-12, SSEna))
+  
+  # F-tests
+  df1_sex <- k_full  - k_nosex
+  df1_age <- k_full  - k_noage
+  df2     <- n_j - k_full
+  if (df2 <= 0) {
+    p_sex <- NA_real_; p_age <- NA_real_
+  } else {
+    F_sex <- ((SSEns - SSEf) / df1_sex) / (SSEf / df2)
+    F_age <- ((SSEna - SSEf) / df1_age) / (SSEf / df2)
+    p_sex <- pf(F_sex, df1_sex, df2, lower.tail = FALSE)
+    p_age <- pf(F_age, df1_age, df2, lower.tail = FALSE)
+  }
+  
+  # Beta for sex (if a single coefficient — i.e., two-level sex with reference)
+  sex_cols <- grepl("^sex", colnames(Xf))
+  beta_sex <- if (sum(sex_cols) == 1) betaf[sex_cols] else NA_real_
   
   tibble(
-    dataset = dataset_label,
-    feature = colnames(df_num),
+    n = n_j,
     R2_all = R2_all,
     partR2_sex = partR2_sex,
     partR2_age = partR2_age,
     p_sex = p_sex,
     p_age = p_age,
-    q_sex = p.adjust(p_sex, "BH"),
-    q_age = p.adjust(p_age, "BH"),
-    beta_sex = beta_sex
+    beta_sex = as.numeric(beta_sex)
   )
 }
 
-metab_num <- b3$metabolome_clean %>% select(-all_of(id_cols))
-prot_num  <- b3$proteome_clean   %>% select(-all_of(id_cols))
+analyze_df <- function(df_num, dataset_label) {
+  out <- lapply(seq_len(ncol(df_num)), function(j) {
+    y <- df_num[[j]]
+    res <- diag_one(y, X_full, X_nosex, X_noage)
+    res$feature <- colnames(df_num)[j]
+    res
+  })
+  bind_rows(out) %>%
+    mutate(dataset = dataset_label,
+           q_sex = p.adjust(p_sex, "BH"),
+           q_age = p.adjust(p_age, "BH")) %>%
+    relocate(dataset, feature, n)
+}
 
-stats_m <- analyze(metab_num, "metabolome")
-stats_p <- analyze(prot_num,  "proteome")
+# ------------------------- Run diagnostics -----------------------------------
+metab_num <- metabolome %>% select(-all_of(id_cols))
+prot_num  <- proteome   %>% select(-all_of(id_cols))
+
+cat("Running diagnostics (NA-aware)…\n")
+stats_m <- analyze_df(metab_num, "metabolome")
+stats_p <- analyze_df(prot_num,  "proteome")
 stats_all <- bind_rows(stats_m, stats_p)
 
+# ----------------------------- Save outputs ----------------------------------
 readr::write_csv(stats_all, file.path(config$paths$results, "block4_diagnostics_partialR2.csv"))
 
-top20_sex <- stats_all %>% group_by(dataset) %>% arrange(desc(partR2_sex), .by_group = TRUE) %>% slice_head(n = 20) %>% ungroup()
-top20_age <- stats_all %>% group_by(dataset) %>% arrange(desc(partR2_age), .by_group = TRUE) %>% slice_head(n = 20) %>% ungroup()
+top20_sex <- stats_all %>%
+  group_by(dataset) %>% arrange(desc(partR2_sex), .by_group = TRUE) %>%
+  slice_head(n = 20) %>% ungroup()
+top20_age <- stats_all %>%
+  group_by(dataset) %>% arrange(desc(partR2_age), .by_group = TRUE) %>%
+  slice_head(n = 20) %>% ungroup()
 
 readr::write_csv(top20_sex, file.path(config$paths$results, "block4_top20_by_partialR2_sex.csv"))
 readr::write_csv(top20_age, file.path(config$paths$results, "block4_top20_by_partialR2_age.csv"))
 
 dir.create(config$paths$figures, showWarnings = FALSE, recursive = TRUE)
-g_m <- ggplot(stats_m, aes(R2_all)) + geom_histogram(bins = 30) + labs(title = "Metabolome: R² (age+sex) distribution", x = "R²", y = "Features") + theme_minimal()
-g_p <- ggplot(stats_p, aes(R2_all)) + geom_histogram(bins = 30) + labs(title = "Proteome: R² (age+sex) distribution", x = "R²", y = "Features") + theme_minimal()
+g_m <- ggplot(stats_m, aes(R2_all)) + geom_histogram(bins = 30) +
+  labs(title = "Metabolome: R² (age+sex) distribution", x = "R²", y = "Features") +
+  theme_minimal()
+g_p <- ggplot(stats_p, aes(R2_all)) + geom_histogram(bins = 30) +
+  labs(title = "Proteome: R² (age+sex) distribution", x = "R²", y = "Features") +
+  theme_minimal()
 ggsave(file.path(config$paths$figures, "block4_R2_hist_metabolome.png"), g_m, width = 7, height = 5, dpi = 300)
 ggsave(file.path(config$paths$figures, "block4_R2_hist_proteome.png"),  g_p, width = 7, height = 5, dpi = 300)
 
-top_dir <- file.path(config$paths$results, "block4_top20_tables_readme.txt")
+# Small README to interpret tables
 txt <- c(
   paste0("Sex factor levels (reference = first level): ", paste(sex_levels, collapse = ", ")),
-  "Interpretation: beta_sex > 0 means mean(Male) > mean(reference level).",
+  "Interpretation: beta_sex > 0 means mean(level!=ref) > mean(ref) after adjusting for age spline.",
   "Files:",
-  "  - block4_top20_by_partialR2_sex.csv",
-  "  - block4_top20_by_partialR2_age.csv",
-  "  - block4_diagnostics_partialR2.csv",
+  "  - results/block4_top20_by_partialR2_sex.csv",
+  "  - results/block4_top20_by_partialR2_age.csv",
+  "  - results/block4_diagnostics_partialR2.csv",
   "  - figures/block4_R2_hist_[metabolome|proteome].png"
 )
-writeLines(txt, top_dir)
+writeLines(txt, file.path(config$paths$results, "block4_top20_tables_readme.txt"))
 
 cat("Diagnostics complete.\n")
 cat("Sex levels: ", paste(sex_levels, collapse = ", "), "\n")

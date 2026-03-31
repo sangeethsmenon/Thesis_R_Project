@@ -1,0 +1,26 @@
+component,side,method,name,weight,abs_w,rank,label
+3,metabolites,scca,fid_23562,-0.3491112513190546,0.3491112513190546,1,Cholesteryl Esters in Large HDL
+3,metabolites,scca,fid_23561,-0.32713395029925424,0.32713395029925424,2,Cholesterol in Large HDL
+3,metabolites,scca,fid_23555,-0.29581933528677984,0.29581933528677984,3,Cholesteryl Esters in Very Large HDL
+3,metabolites,scca,fid_23554,-0.2649585626925789,0.2649585626925789,4,Cholesterol in Very Large HDL
+3,metabolites,scca,fid_23558,-0.2583069184156085,0.2583069184156085,5,Concentration of Large HDL Particles
+3,metabolites,scca,fid_23433,-0.2560511109877988,0.2560511109877988,6,Average Diameter for HDL Particles
+3,metabolites,scca,fid_23563,-0.23561717595374224,0.23561717595374224,7,Free Cholesterol in Large HDL
+3,metabolites,scca,fid_23559,-0.2313264572414752,0.2313264572414752,8,Total Lipids in Large HDL
+3,metabolites,scca,fid_23606,-0.2280720390838305,0.2280720390838305,9,Cholesteryl Esters to Total Lipids in Very Small VLDL percentage
+3,metabolites,scca,fid_23552,-0.20910400205672264,0.20910400205672264,10,Total Lipids in Very Large HDL
+3,metabolites,scca,fid_23553,-0.20230901092925693,0.20230901092925693,11,Phospholipids in Very Large HDL
+3,metabolites,scca,fid_23634,0.1986198722016526,0.1986198722016526,12,Phospholipids to Total Lipids in Large HDL percentage
+3,metabolites,scca,fid_23605,-0.1869688726478081,0.1869688726478081,13,Cholesterol to Total Lipids in Very Small VLDL percentage
+3,metabolites,scca,fid_23560,-0.1612336228707386,0.1612336228707386,14,Phospholipids in Large HDL
+3,metabolites,scca,fid_23608,0.14728823564178806,0.14728823564178806,15,Triglycerides to Total Lipids in Very Small VLDL percentage
+3,metabolites,scca,fid_23596,-0.1424977844657702,0.1424977844657702,16,Cholesteryl Esters to Total Lipids in Medium VLDL percentage
+3,metabolites,scca,fid_23551,-0.13833416803342638,0.13833416803342638,17,Concentration of Very Large HDL Particles
+3,metabolites,scca,fid_23613,0.13065259293995335,0.13065259293995335,18,Triglycerides to Total Lipids in IDL percentage
+3,metabolites,scca,fid_23418,-0.115006708861927,0.115006708861927,19,Cholesteryl Esters in HDL
+3,metabolites,scca,fid_23595,-0.0959511482468894,0.0959511482468894,20,Cholesterol to Total Lipids in Medium VLDL percentage
+3,metabolites,scca,fid_23556,-0.09283699313626108,0.09283699313626108,21,Free Cholesterol in Very Large HDL
+3,metabolites,scca,fid_23406,-0.0858888521109065,0.0858888521109065,22,HDL Cholesterol
+3,metabolites,scca,fid_23642,-0.07932738498645442,0.07932738498645442,23,Free Cholesterol to Total Lipids in Medium HDL percentage
+3,metabolites,scca,fid_23639,0.06181951291118159,0.06181951291118159,24,Phospholipids to Total Lipids in Medium HDL percentage
+3,metabolites,scca,fid_23618,0.05547064490130198,0.05547064490130198,25,Triglycerides to Total Lipids in Large LDL percentage

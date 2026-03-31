@@ -1,0 +1,26 @@
+component,side,method,name,weight,abs_w,rank,label
+1,metabolites,ridge,fid_23436,-1.0322941304521065,1.0322941304521065,1,Total Cholines
+1,metabolites,ridge,fid_23550,-0.7386221380934138,0.7386221380934138,2,Triglycerides in Small LDL
+1,metabolites,ridge,fid_23433,-0.6810899636974407,0.6810899636974407,3,Average Diameter for HDL Particles
+1,metabolites,ridge,fid_23434,0.6273022812715703,0.6273022812715703,4,Phosphoglycerides
+1,metabolites,ridge,fid_23543,0.5868787741130258,0.5868787741130258,5,Triglycerides in Medium LDL
+1,metabolites,ridge,fid_23499,-0.5284604088455691,0.5284604088455691,6,Cholesteryl Esters in Large VLDL
+1,metabolites,ridge,fid_23570,0.5085558385015272,0.5085558385015272,7,Free Cholesterol in Medium HDL
+1,metabolites,ridge,fid_23443,0.48153906045035944,0.48153906045035944,8,Degree of Unsaturation
+1,metabolites,ridge,fid_23565,0.4810829002620619,0.4810829002620619,9,Concentration of Medium HDL Particles
+1,metabolites,ridge,fid_23497,0.4706391478356576,0.4706391478356576,10,Phospholipids in Large VLDL
+1,metabolites,ridge,fid_23648,0.4189606017265174,0.4189606017265174,11,Triglycerides to Total Lipids in Small HDL percentage
+1,metabolites,ridge,fid_23548,-0.4060108718824037,0.4060108718824037,12,Cholesteryl Esters in Small LDL
+1,metabolites,ridge,fid_23494,-0.40151550791414214,0.40151550791414214,13,Triglycerides in Very Large VLDL
+1,metabolites,ridge,fid_23557,-0.3922672723440435,0.3922672723440435,14,Triglycerides in Very Large HDL
+1,metabolites,ridge,fid_23454,0.37768934165758106,0.37768934165758106,15,Monounsaturated Fatty Acids to Total Fatty Acids percentage
+1,metabolites,ridge,fid_23501,0.3673541224410303,0.3673541224410303,16,Triglycerides in Large VLDL
+1,metabolites,ridge,fid_23520,0.359444660879194,0.359444660879194,17,Cholesteryl Esters in Very Small VLDL
+1,metabolites,ridge,fid_23572,-0.35411913444039916,0.35411913444039916,18,Concentration of Small HDL Particles
+1,metabolites,ridge,fid_23480,0.34407291969432857,0.34407291969432857,19,Glycoprotein Acetyls
+1,metabolites,ridge,fid_23419,-0.33965121956946254,0.33965121956946254,20,Total Free Cholesterol
+1,metabolites,ridge,fid_23571,-0.33921691258122805,0.33921691258122805,21,Triglycerides in Medium HDL
+1,metabolites,ridge,fid_23539,0.3231081858541127,0.3231081858541127,22,Phospholipids in Medium LDL
+1,metabolites,ridge,fid_23440,0.3152032582969748,0.3152032582969748,23,Apolipoprotein A1
+1,metabolites,ridge,fid_23511,0.3130597366783676,0.3130597366783676,24,Phospholipids in Small VLDL
+1,metabolites,ridge,fid_23521,-0.30856722592020674,0.30856722592020674,25,Free Cholesterol in Very Small VLDL

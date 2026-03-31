@@ -1,0 +1,26 @@
+component,side,method,name,weight,abs_w,rank,label
+5,metabolites,ridge,fid_23481,-1.7939145995351855,1.7939145995351855,1,Concentration of Chylomicrons and Extremely Large VLDL Particles
+5,metabolites,ridge,fid_23509,-1.703054298935404,1.703054298935404,2,Concentration of Small VLDL Particles
+5,metabolites,ridge,fid_23434,1.693749818815441,1.693749818815441,3,Phosphoglycerides
+5,metabolites,ridge,fid_23437,-1.378748597306334,1.378748597306334,4,Phosphatidylcholines
+5,metabolites,ridge,fid_23532,-1.3070331694578143,1.3070331694578143,5,Phospholipids in Large LDL
+5,metabolites,ridge,fid_23546,-1.212730140917435,1.212730140917435,6,Phospholipids in Small LDL
+5,metabolites,ridge,fid_23404,-0.970341374177495,0.970341374177495,7,Clinical LDL Cholesterol
+5,metabolites,ridge,fid_23548,-0.9612487278668452,0.9612487278668452,8,Cholesteryl Esters in Small LDL
+5,metabolites,ridge,fid_23413,-0.9588568580712074,0.9588568580712074,9,Phospholipids in LDL
+5,metabolites,ridge,fid_23525,0.8838142693922258,0.8838142693922258,10,Phospholipids in IDL
+5,metabolites,ridge,fid_23562,-0.8687669270403557,0.8687669270403557,11,Cholesteryl Esters in Large HDL
+5,metabolites,ridge,fid_23508,0.8492856541293868,0.8492856541293868,12,Triglycerides in Medium VLDL
+5,metabolites,ridge,fid_23522,-0.8417091382742232,0.8417091382742232,13,Triglycerides in Very Small VLDL
+5,metabolites,ridge,fid_23529,-0.8397734901230005,0.8397734901230005,14,Triglycerides in IDL
+5,metabolites,ridge,fid_23648,0.7873808815438351,0.7873808815438351,15,Triglycerides to Total Lipids in Small HDL percentage
+5,metabolites,ridge,fid_23577,0.775306890205037,0.775306890205037,16,Free Cholesterol in Small HDL
+5,metabolites,ridge,fid_23502,0.7729105084078309,0.7729105084078309,17,Concentration of Medium VLDL Particles
+5,metabolites,ridge,fid_23528,0.7677523042768456,0.7677523042768456,18,Free Cholesterol in IDL
+5,metabolites,ridge,fid_23550,0.7675974289834665,0.7675974289834665,19,Triglycerides in Small LDL
+5,metabolites,ridge,fid_23567,-0.7668723703834113,0.7668723703834113,20,Phospholipids in Medium HDL
+5,metabolites,ridge,fid_23536,0.7572387688452985,0.7572387688452985,21,Triglycerides in Large LDL
+5,metabolites,ridge,fid_23513,0.7494315521944521,0.7494315521944521,22,Cholesteryl Esters in Small VLDL
+5,metabolites,ridge,fid_23485,0.7481829596213925,0.7481829596213925,23,Cholesteryl Esters in Chylomicrons and Extremely Large VLDL
+5,metabolites,ridge,fid_23436,-0.7420536190969416,0.7420536190969416,24,Total Cholines
+5,metabolites,ridge,fid_23560,0.7406703755322978,0.7406703755322978,25,Phospholipids in Large HDL

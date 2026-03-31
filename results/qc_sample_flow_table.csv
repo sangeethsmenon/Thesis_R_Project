@@ -1,0 +1,4 @@
+stage,n_before,n_removed,n_after,removed_pct
+Raw input (before sample-missingness filter),13411,0,13411,0
+Sample filter (proteome missingness per sample),13411,2435,10976,18.156737006934605
+Multivariate outliers (PCA scores + Mahalanobis),10976,440,10536,4.0087463556851315

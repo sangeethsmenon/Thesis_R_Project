@@ -1,0 +1,6 @@
+GO/KEGG enrichment skipped.
+ - protein_id_map.csv present: FALSE
+ - Bioconductor pkgs present (clusterProfiler + org.Hs.eg.db): TRUE
+To enable enrichment:
+  1) install Bioconductor packages: clusterProfiler, org.Hs.eg.db
+  2) create results/protein_id_map.csv with columns: protein, ENTREZID (optional SYMBOL)

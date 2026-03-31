@@ -1,0 +1,26 @@
+module,term,p_adjust
+1,wound healing,5.308204143106142e-13
+1,hemostasis,5.450648785645544e-13
+1,positive regulation of phosphorylation,1.563368189268821e-12
+1,platelet activation,3.2143246017731826e-12
+1,positive regulation of protein phosphorylation,5.060579779733965e-12
+2,hydrogen peroxide metabolic process,1.787941756562773e-5
+2,cellular oxidant detoxification,1.787941756562773e-5
+2,cellular detoxification,1.787941756562773e-5
+2,cellular response to toxic substance,3.189686540316463e-5
+2,nucleotide metabolic process,3.40561731485506e-5
+3,humoral immune response,2.1738412448241537e-39
+3,leukocyte migration,8.984210602671759e-35
+3,chemotaxis,3.1187109914670958e-30
+3,taxis,3.4228167451507336e-30
+3,regulation of immune effector process,1.46500213125465e-28
+4,gonad development,0.00181665903606024
+4,development of primary sexual characteristics,0.00181665903606024
+4,ovulation cycle process,0.00215478372759905
+4,female gonad development,0.00307035807864659
+4,development of primary female sexual characteristics,0.00337030842299433
+5,digestion,1.637032503512459e-4
+5,positive regulation of lipase activity,0.03706566057509113
+5,leukotriene metabolic process,0.04728107716485336
+5,regulation of lipase activity,0.04728107716485336
+5,mucosal immune response,0.04940330462084143

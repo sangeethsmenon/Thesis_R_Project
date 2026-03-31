@@ -1,0 +1,26 @@
+module,pathway,p_adjust
+1,Lipid and atherosclerosis,3.7310325196247384e-11
+1,Apoptosis - multiple species,6.401874548027975e-10
+1,Apoptosis,6.073252535691246e-9
+1,TNF signaling pathway,2.6889670334208852e-8
+1,NF-kappa B signaling pathway,4.636840938014602e-8
+2,Nucleotide metabolism,0.00683492519140128
+2,Biosynthesis of cofactors,0.00894332293330514
+2,Lipid and atherosclerosis,0.02280705689175875
+2,NOD-like receptor signaling pathway,0.02372091612094485
+2,Pyruvate metabolism,0.0246201043749188
+3,Cytokine-cytokine receptor interaction,2.0022648394606926e-40
+3,Complement and coagulation cascades,3.4554944721201157e-37
+3,Cell adhesion molecule (CAM) interaction,1.5958909222706194e-25
+3,Viral protein interaction with cytokine and cytokine receptor,2.0534001876886928e-16
+3,Integrin signaling,2.3616014217305497e-16
+4,cAMP signaling pathway,3.1045822024529905e-4
+4,Relaxin signaling pathway,0.00288853527018658
+4,cGMP-PKG signaling pathway,0.00300820201417183
+4,Aldosterone synthesis and secretion,0.00546552844770155
+4,Thyroid hormone synthesis,0.00546552844770155
+5,Pancreatic secretion,2.9413550570961844e-21
+5,Protein digestion and absorption,6.337268875339941e-11
+5,Fat digestion and absorption,6.675746888813216e-6
+5,Salivary secretion,1.3188946960299657e-4
+5,Starch and sucrose metabolism,0.00958954893579215

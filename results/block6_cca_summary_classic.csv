@@ -1,0 +1,6 @@
+method,k,cancor,n,p_proteins,p_metabolites,complete_cases,thr_missing_proteome,thr_missing_metabolome
+classic,1,0.9756660417088181,3642,1442,249,TRUE,0.05,0.05
+classic,2,0.9592631877021149,3642,1442,249,TRUE,0.05,0.05
+classic,3,0.9499090562410154,3642,1442,249,TRUE,0.05,0.05
+classic,4,0.939665675439489,3642,1442,249,TRUE,0.05,0.05
+classic,5,0.9239793648488642,3642,1442,249,TRUE,0.05,0.05

@@ -1,0 +1,250 @@
+name,v_01,v_02,v_03,v_04,v_05,metabolite_label
+fid_23474,-0,-0,-0,-0,0,3-Hydroxybutyrate
+fid_23475,-0,-0,-0,-0,-0,Acetate
+fid_23476,-0,-0,-0,-0,0,Acetoacetate
+fid_23477,-0,-0,-0,-0,-0,Acetone
+fid_23460,0,0,0,0,0,Alanine
+fid_23479,-0,-0,-0,-0,-0,Albumin
+fid_23440,-0,-0,-0,-0,-0,Apolipoprotein A1
+fid_23439,0,0,0,0,-0,Apolipoprotein B
+fid_23441,0,0,0,0,0,Apolipoprotein B to Apolipoprotein A1 ratio
+fid_23433,-0,-0,-0.2560511109877988,-0,-0,Average Diameter for HDL Particles
+fid_23432,-0,-0,-0,-0,-0,Average Diameter for LDL Particles
+fid_23431,0,0.2597450486255995,0,-0,0.16441544901221852,Average Diameter for VLDL Particles
+fid_23484,0.07539610399080479,0,0,0.05741644478947178,0,Cholesterol in Chylomicrons and Extremely Large VLDL
+fid_23526,-0,0,-0,0,-0,Cholesterol in IDL
+fid_23561,-0,-0,-0.32713395029925424,-0,-0.00666794900993428,Cholesterol in Large HDL
+fid_23533,0,0,-0,0,-0,Cholesterol in Large LDL
+fid_23498,0,0.15798538679793742,0,0,0,Cholesterol in Large VLDL
+fid_23568,-0,-0,-0,-0,-0,Cholesterol in Medium HDL
+fid_23540,0,0,0,0,0,Cholesterol in Medium LDL
+fid_23505,0,0,0,0,-0,Cholesterol in Medium VLDL
+fid_23575,0,0,0,0,0,Cholesterol in Small HDL
+fid_23547,0,0,0,0,0,Cholesterol in Small LDL
+fid_23512,0,0,0,0.06578914187333917,0,Cholesterol in Small VLDL
+fid_23554,-0,-0,-0.2649585626925789,-0,-0,Cholesterol in Very Large HDL
+fid_23491,0,0.2098555519732235,0,0,0.06412477652471589,Cholesterol in Very Large VLDL
+fid_23519,0,0,-0,0,-0,Cholesterol in Very Small VLDL
+fid_23580,-0,-0,-0,-0,0,Cholesterol to Total Lipids in Chylomicrons and Extremely Large VLDL percentage
+fid_23610,-0,-0,-0,-0,-0,Cholesterol to Total Lipids in IDL percentage
+fid_23635,-0.16572825394663102,-0,-0,-0,-0.07930201670179851,Cholesterol to Total Lipids in Large HDL percentage
+fid_23615,-0,-0,-0.04490273233344675,-0,-0,Cholesterol to Total Lipids in Large LDL percentage
+fid_23590,-0,-0,-0,-0,-0,Cholesterol to Total Lipids in Large VLDL percentage
+fid_23640,-0.11381662822402118,-0,-0,-0,-0,Cholesterol to Total Lipids in Medium HDL percentage
+fid_23620,-0,-0,-0,-0,-0,Cholesterol to Total Lipids in Medium LDL percentage
+fid_23595,-0,-0,-0.0959511482468894,-0,-0,Cholesterol to Total Lipids in Medium VLDL percentage
+fid_23645,-0,-0,-0,-0,-0,Cholesterol to Total Lipids in Small HDL percentage
+fid_23625,-0,-0,-0,0,-0,Cholesterol to Total Lipids in Small LDL percentage
+fid_23600,-0,-0,-0,-0,-0,Cholesterol to Total Lipids in Small VLDL percentage
+fid_23630,0,0,0,0,0,Cholesterol to Total Lipids in Very Large HDL percentage
+fid_23585,-0,-0,-0.02351610762583591,-0.00915624974713246,-0,Cholesterol to Total Lipids in Very Large VLDL percentage
+fid_23605,-0,-0,-0.1869688726478081,-0,-0,Cholesterol to Total Lipids in Very Small VLDL percentage
+fid_23485,0.05199869445174376,0,0,0.2074778783507089,0.09666603795653364,Cholesteryl Esters in Chylomicrons and Extremely Large VLDL
+fid_23418,-0,-0,-0.115006708861927,-0,-0,Cholesteryl Esters in HDL
+fid_23527,-0,0,-0,0,-0,Cholesteryl Esters in IDL
+fid_23417,0,0,0,0,-0,Cholesteryl Esters in LDL
+fid_23562,-0,-0,-0.3491112513190546,0,-0.02471446525023083,Cholesteryl Esters in Large HDL
+fid_23534,0,0,-0,0,-0,Cholesteryl Esters in Large LDL
+fid_23499,0,0,0,0.31532421330109484,0.0900057185313533,Cholesteryl Esters in Large VLDL
+fid_23569,-0,-0,-0,-0,-0,Cholesteryl Esters in Medium HDL
+fid_23541,0,0,0,0.0317073207979914,0,Cholesteryl Esters in Medium LDL
+fid_23506,-0,0,-0,0,-0,Cholesteryl Esters in Medium VLDL
+fid_23576,0,0,0,0,0,Cholesteryl Esters in Small HDL
+fid_23548,0,0,0,0,0,Cholesteryl Esters in Small LDL
+fid_23513,0,0,0,0.13363700275563403,0,Cholesteryl Esters in Small VLDL
+fid_23416,0,0,0,0.02253173989203894,0,Cholesteryl Esters in VLDL
+fid_23555,-0,-0,-0.29581933528677984,-0,-0,Cholesteryl Esters in Very Large HDL
+fid_23492,0,0.04037738895918815,0,0.14398470142011432,0,Cholesteryl Esters in Very Large VLDL
+fid_23520,0,0,-0,0,-0,Cholesteryl Esters in Very Small VLDL
+fid_23581,-0,-0,-0,-0,0,Cholesteryl Esters to Total Lipids in Chylomicrons and Extremely Large VLDL percentage
+fid_23611,-0,-0,-0,-0,-0,Cholesteryl Esters to Total Lipids in IDL percentage
+fid_23636,-0.2490158727413831,0,-0,0,-0.2301932526576388,Cholesteryl Esters to Total Lipids in Large HDL percentage
+fid_23616,0,0,-0,0,-0,Cholesteryl Esters to Total Lipids in Large LDL percentage
+fid_23591,-0,-0,-0,-0,-0,Cholesteryl Esters to Total Lipids in Large VLDL percentage
+fid_23641,-0.0754479517326418,-0,-0,-0,-0,Cholesteryl Esters to Total Lipids in Medium HDL percentage
+fid_23621,0,0,0,0.04644070114716064,0,Cholesteryl Esters to Total Lipids in Medium LDL percentage
+fid_23596,-0,-0,-0.1424977844657702,-0,-0,Cholesteryl Esters to Total Lipids in Medium VLDL percentage
+fid_23646,-0,-0,-0,-0,-0,Cholesteryl Esters to Total Lipids in Small HDL percentage
+fid_23626,0,0,0,0.1408148728383576,0,Cholesteryl Esters to Total Lipids in Small LDL percentage
+fid_23601,-0,-0,-0,-0,0,Cholesteryl Esters to Total Lipids in Small VLDL percentage
+fid_23631,-0,-0,-0,-0,-0,Cholesteryl Esters to Total Lipids in Very Large HDL percentage
+fid_23586,-0,-0,-0.00561343100664761,-0.0606723949054208,-0,Cholesteryl Esters to Total Lipids in Very Large VLDL percentage
+fid_23606,-0,-0,-0.2280720390838305,-0,-0,Cholesteryl Esters to Total Lipids in Very Small VLDL percentage
+fid_23473,0,0,0,0,0,Citrate
+fid_23404,0,0,-0,0,-0,Clinical LDL Cholesterol
+fid_23481,0.09243216961953409,0,0,0,0,Concentration of Chylomicrons and Extremely Large VLDL Particles
+fid_23430,-0,-0,-0,0,-0,Concentration of HDL Particles
+fid_23523,0,0,-0,0,-0,Concentration of IDL Particles
+fid_23429,0,0,0,0,-0,Concentration of LDL Particles
+fid_23558,-0,-0,-0.2583069184156085,-0,-0,Concentration of Large HDL Particles
+fid_23530,0,0,0,0,-0,Concentration of Large LDL Particles
+fid_23495,0.0469352249226221,0,0,0.24618325571406405,0.11366171238488286,Concentration of Large VLDL Particles
+fid_23565,-0,-0,-0,-0,-0,Concentration of Medium HDL Particles
+fid_23537,0,0,0,0,0,Concentration of Medium LDL Particles
+fid_23502,0,0,0,0.13164113120834883,0,Concentration of Medium VLDL Particles
+fid_23572,0,0,0,0,0,Concentration of Small HDL Particles
+fid_23544,0,0,0,0,0,Concentration of Small LDL Particles
+fid_23509,0,0.04451816843903258,0,0.11430895150835534,0,Concentration of Small VLDL Particles
+fid_23428,0,0,0,0.30416932590199386,0.075506618713996193,Concentration of VLDL Particles
+fid_23551,-0,-0,-0.13833416803342638,-0,-0,Concentration of Very Large HDL Particles
+fid_23488,0.16758947835314267,0,0,0,0.02061462156481265,Concentration of Very Large VLDL Particles
+fid_23516,0,0,0,0,0,Concentration of Very Small VLDL Particles
+fid_23478,0,0,0,0,0,Creatinine
+fid_23443,-0,-0,-0,-0.0564524681297862,-0,Degree of Unsaturation
+fid_23450,-0,-0,-0,-0,-0,Docosahexaenoic Acid
+fid_23457,-0,-0,-0,-0,-0,Docosahexaenoic Acid to Total Fatty Acids percentage
+fid_23486,0.06761967669043333,0,0,0.07857471655245847,0,Free Cholesterol in Chylomicrons and Extremely Large VLDL
+fid_23422,-0,-0,-0,-0,-0,Free Cholesterol in HDL
+fid_23528,-0,-0,-0,0,-0,Free Cholesterol in IDL
+fid_23421,-0,0,-0,0,-0,Free Cholesterol in LDL
+fid_23563,-0,-0,-0.23561717595374224,-0,-0,Free Cholesterol in Large HDL
+fid_23535,-0,0,-0,0,-0,Free Cholesterol in Large LDL
+fid_23500,0.01719788576162937,0.1523701951447478,0,0,5.106679294031526e-4,Free Cholesterol in Large VLDL
+fid_23570,-0,-0,-0,-0,-0,Free Cholesterol in Medium HDL
+fid_23542,0,0,-0,0,-0,Free Cholesterol in Medium LDL
+fid_23507,0,0,0,0,-0,Free Cholesterol in Medium VLDL
+fid_23577,0,0,0,0,0,Free Cholesterol in Small HDL
+fid_23549,-0,0,-0,0,-0,Free Cholesterol in Small LDL
+fid_23514,0,0,0,0,-0,Free Cholesterol in Small VLDL
+fid_23420,0,0,0,0.33525588213422647,0.11834296766500062,Free Cholesterol in VLDL
+fid_23556,-0,-0,-0.09283699313626108,-0,-0,Free Cholesterol in Very Large HDL
+fid_23493,0.01183457506180027,0.1974850731147822,0,0,0.0684337156275186,Free Cholesterol in Very Large VLDL
+fid_23521,0,0,0,0,-0,Free Cholesterol in Very Small VLDL
+fid_23582,-0,-0,-0,-0,-0,Free Cholesterol to Total Lipids in Chylomicrons and Extremely Large VLDL percentage
+fid_23612,-0,-0,-0,-0,-0,Free Cholesterol to Total Lipids in IDL percentage
+fid_23637,-0,-0,-0,-0,-0,Free Cholesterol to Total Lipids in Large HDL percentage
+fid_23617,-0,-0.1718434965971868,-0,-0,-0.03437801498456735,Free Cholesterol to Total Lipids in Large LDL percentage
+fid_23592,0,0,0,0,0,Free Cholesterol to Total Lipids in Large VLDL percentage
+fid_23642,-0,-0,-0.07932738498645442,-0,-0,Free Cholesterol to Total Lipids in Medium HDL percentage
+fid_23622,-0.14419533997034517,-0,-0,-0,-0,Free Cholesterol to Total Lipids in Medium LDL percentage
+fid_23597,-0,-0,-0,-0,-0,Free Cholesterol to Total Lipids in Medium VLDL percentage
+fid_23647,-0,-0,-0,-0,-0,Free Cholesterol to Total Lipids in Small HDL percentage
+fid_23627,-0,-0.0501892239506996,-0,-0,-0,Free Cholesterol to Total Lipids in Small LDL percentage
+fid_23602,-0,-0,-0.02130400940659483,-0,-0,Free Cholesterol to Total Lipids in Small VLDL percentage
+fid_23632,0,0,0.022545704866505,0,0,Free Cholesterol to Total Lipids in Very Large HDL percentage
+fid_23587,-0,-0,-0,-0,-0,Free Cholesterol to Total Lipids in Very Large VLDL percentage
+fid_23607,-0,-0,-0,-0,-0,Free Cholesterol to Total Lipids in Very Small VLDL percentage
+fid_23470,0,0,0,0,0,Glucose
+fid_23461,-0,-0,-0,-0,-0,Glutamine
+fid_23462,-0,-0,-0,-0,0,Glycine
+fid_23480,0.09259845194910549,0,0,0,0.0479430549582116,Glycoprotein Acetyls
+fid_23406,-0,-0,-0.0858888521109065,-0,-0,HDL Cholesterol
+fid_23463,-0,-0,-0,-0,-0,Histidine
+fid_23465,0,0,0,0,0,Isoleucine
+fid_23405,0,0,0,0,-0,LDL Cholesterol
+fid_23471,0,0,0,0,0,Lactate
+fid_23466,0,0,0,0,0,Leucine
+fid_23449,0,0,0,0,-0,Linoleic Acid
+fid_23456,-0,-0,-0,-0,-0,Linoleic Acid to Total Fatty Acids percentage
+fid_23447,0.09126993346880156,0,0,0.01023869738378013,0,Monounsaturated Fatty Acids
+fid_23454,0.3692995075170627,-0,-0,-0,0.4718112266479328,Monounsaturated Fatty Acids to Total Fatty Acids percentage
+fid_23444,0,0,0,0,-0,Omega-3 Fatty Acids
+fid_23451,-0,-0,-0,-0,-0,Omega-3 Fatty Acids to Total Fatty Acids percentage
+fid_23445,0,0,0,0,-0,Omega-6 Fatty Acids
+fid_23459,-0,-0,0,-0,0,Omega-6 Fatty Acids to Omega-3 Fatty Acids ratio
+fid_23452,-0.12812774644916858,-0,-0,-0,-0,Omega-6 Fatty Acids to Total Fatty Acids percentage
+fid_23468,0,0,0,0,0,Phenylalanine
+fid_23437,0,0,-0,0,-0,Phosphatidylcholines
+fid_23434,0,0,-0,0,-0,Phosphoglycerides
+fid_23483,0.0981550674010147,0,0,0,0,Phospholipids in Chylomicrons and Extremely Large VLDL
+fid_23414,-0,-0,-0,-0,-0,Phospholipids in HDL
+fid_23525,0,0,-0,0,-0,Phospholipids in IDL
+fid_23413,0,0,0,0,-0,Phospholipids in LDL
+fid_23560,-0,-0,-0.1612336228707386,-0,-0,Phospholipids in Large HDL
+fid_23532,0,0,-0,0,-0,Phospholipids in Large LDL
+fid_23497,0.09026396811394136,0,0,0,0,Phospholipids in Large VLDL
+fid_23567,0,0,-0,0,-0,Phospholipids in Medium HDL
+fid_23539,0,0,0,0,0,Phospholipids in Medium LDL
+fid_23504,0,0,0,0.10187178989509048,0,Phospholipids in Medium VLDL
+fid_23574,0,0,0,0.03375570667994757,0,Phospholipids in Small HDL
+fid_23546,0,0,0,0,-0,Phospholipids in Small LDL
+fid_23511,0,0,0,0.15355615671430928,0,Phospholipids in Small VLDL
+fid_23412,0,0.10814709653393748,0,0,0,Phospholipids in VLDL
+fid_23553,-0,-0,-0.20230901092925693,-0,-0,Phospholipids in Very Large HDL
+fid_23490,0.08592525490828558,0,0,0.0130176808869537,0,Phospholipids in Very Large VLDL
+fid_23518,0,0,0,0,0,Phospholipids in Very Small VLDL
+fid_23579,0,0,0,0,0,Phospholipids to Total Lipids in Chylomicrons and Extremely Large VLDL percentage
+fid_23609,0,-0,0,-0,-0,Phospholipids to Total Lipids in IDL percentage
+fid_23634,0,0,0.1986198722016526,0,0,Phospholipids to Total Lipids in Large HDL percentage
+fid_23614,-0,-0,-0,-0,0,Phospholipids to Total Lipids in Large LDL percentage
+fid_23589,0,0,0.01208782129510445,0.17397139656521107,0,Phospholipids to Total Lipids in Large VLDL percentage
+fid_23639,0,0.0551397277427101,0.06181951291118159,0,0,Phospholipids to Total Lipids in Medium HDL percentage
+fid_23619,-0,-0,-0,-0,-0,Phospholipids to Total Lipids in Medium LDL percentage
+fid_23594,-0,-0,-0,-0,-0,Phospholipids to Total Lipids in Medium VLDL percentage
+fid_23644,0,0,-0,-0,-0,Phospholipids to Total Lipids in Small HDL percentage
+fid_23624,-0,-0,-0,-0.16724520262533565,-0,Phospholipids to Total Lipids in Small LDL percentage
+fid_23599,-0,-0,-0,-0,-0,Phospholipids to Total Lipids in Small VLDL percentage
+fid_23629,-0,-0,-0,-0,-0,Phospholipids to Total Lipids in Very Large HDL percentage
+fid_23584,0,0,0,0,0,Phospholipids to Total Lipids in Very Large VLDL percentage
+fid_23604,0,0,0,0,0,Phospholipids to Total Lipids in Very Small VLDL percentage
+fid_23446,0,0,0,0,-0,Polyunsaturated Fatty Acids
+fid_23458,-0.4189528300558806,0.20796149965559857,-0,-0,-0.20069041290719009,Polyunsaturated Fatty Acids to Monounsaturated Fatty Acids ratio
+fid_23453,-0.27173664418929283,0,0,0,-0.2881873077935574,Polyunsaturated Fatty Acids to Total Fatty Acids percentage
+fid_23472,0,0,0,0,0,Pyruvate
+fid_23402,0,0,0,0,-0,"Remnant Cholesterol (Non-HDL, Non-LDL -Cholesterol)"
+fid_23448,0,0.08975925167316022,0,0,0,Saturated Fatty Acids
+fid_23455,0,0,0,0,0,Saturated Fatty Acids to Total Fatty Acids percentage
+fid_23438,-0,0,-0,0,-0,Sphingomyelins
+fid_23400,0,0,-0,0,-0,Total Cholesterol
+fid_23401,0,0,0,0,-0,Total Cholesterol Minus HDL-C
+fid_23436,0,0,-0,0,-0,Total Cholines
+fid_23464,0,0,0,0,0,Total Concentration of Branched-Chain Amino Acids (Leucine + Isoleucine + Valine)
+fid_23427,-0,0,-0,0,-0,Total Concentration of Lipoprotein Particles
+fid_23415,0,0,-0,0,-0,Total Esterified Cholesterol
+fid_23442,0,0,0,0.3714692575633023,0.1731247535967017,Total Fatty Acids
+fid_23419,0,0,-0,0,-0,Total Free Cholesterol
+fid_23482,0.02886287207132182,0.00233041613901046,0,0.2688366932935696,0.1295691844287827,Total Lipids in Chylomicrons and Extremely Large VLDL
+fid_23426,-0,-0,-0,-0,-0,Total Lipids in HDL
+fid_23524,0,0,-0,0,-0,Total Lipids in IDL
+fid_23425,0,0,0,0,-0,Total Lipids in LDL
+fid_23559,-0,-0,-0.2313264572414752,-0,-0,Total Lipids in Large HDL
+fid_23531,0,0,-0,0,-0,Total Lipids in Large LDL
+fid_23496,0,0.2942789979057218,-0,-0,0.20936753827060312,Total Lipids in Large VLDL
+fid_23423,0,0,0,0,-0,Total Lipids in Lipoprotein Particles
+fid_23566,-0,-0,-0,-0,-0,Total Lipids in Medium HDL
+fid_23538,0,0,0,0,0,Total Lipids in Medium LDL
+fid_23503,0,0,0,0.2553779583286907,0,Total Lipids in Medium VLDL
+fid_23573,0,0,0,0.05988405981259227,0,Total Lipids in Small HDL
+fid_23545,0,0,0,0,0,Total Lipids in Small LDL
+fid_23510,0,0.01984219718478969,0,0.2566230019713187,0.05457197995721314,Total Lipids in Small VLDL
+fid_23424,0,0.23895201572764263,-0,-0,0.10900222026838846,Total Lipids in VLDL
+fid_23552,-0,-0,-0.20910400205672264,-0,-0,Total Lipids in Very Large HDL
+fid_23489,0.13915143422769757,0,0,0,0,Total Lipids in Very Large VLDL
+fid_23517,0,0,0,0,0,Total Lipids in Very Small VLDL
+fid_23411,0,0,-0,0,-0,Total Phospholipids in Lipoprotein Particles
+fid_23407,0.16420438148209085,0,0,0,0.01064687418960539,Total Triglycerides
+fid_23487,0,0.238516114191372,0,-0,0.129269210623986,Triglycerides in Chylomicrons and Extremely Large VLDL
+fid_23410,0,0.13926176769529963,0,0,0,Triglycerides in HDL
+fid_23529,0,0.13853290189391132,0,0,0,Triglycerides in IDL
+fid_23409,3.594124916465904e-4,0.31169882217055717,-0,-0,0.2743029081903044,Triglycerides in LDL
+fid_23564,0,0,0,0,0,Triglycerides in Large HDL
+fid_23536,0,0.22102454999060905,0,0,0.11441263273518376,Triglycerides in Large LDL
+fid_23501,0,0.2573371291803339,0,-0,0.1428539146366081,Triglycerides in Large VLDL
+fid_23571,0,0.12549570542936697,0,0,0,Triglycerides in Medium HDL
+fid_23543,0.08769211834482651,0,0,0.02145384766060384,0,Triglycerides in Medium LDL
+fid_23508,0,0.24098692530613824,0,-0,0.10795547105990916,Triglycerides in Medium VLDL
+fid_23578,0.4088147814475673,-0.04501749387267968,-0,-0,0.4130910454317144,Triglycerides in Small HDL
+fid_23550,0.13920852195029393,0,0,0,0,Triglycerides in Small LDL
+fid_23515,0.0724521108061349,0,0,0.07632557091083549,0,Triglycerides in Small VLDL
+fid_23408,0.115050820161117,0,0,0,0,Triglycerides in VLDL
+fid_23557,0,0,0,0.03642682415093327,0,Triglycerides in Very Large HDL
+fid_23494,0.1783713071023617,0,0,0,0.04309240488525126,Triglycerides in Very Large VLDL
+fid_23522,0,0.2803047528330334,-0,-0,0.19955088742950697,Triglycerides in Very Small VLDL
+fid_23435,0.2122687169391548,0,0,0,0.11907840441085964,Triglycerides to Phosphoglycerides ratio
+fid_23583,0,0,0,0,-0,Triglycerides to Total Lipids in Chylomicrons and Extremely Large VLDL percentage
+fid_23613,0,0,0.13065259293995335,0,0,Triglycerides to Total Lipids in IDL percentage
+fid_23638,0,0.22649168145201595,0,-0,0.1452543208479913,Triglycerides to Total Lipids in Large HDL percentage
+fid_23618,0,0,0.05547064490130198,0,0,Triglycerides to Total Lipids in Large LDL percentage
+fid_23593,-0,-0,-0,-0,-0,Triglycerides to Total Lipids in Large VLDL percentage
+fid_23643,0.0885485194491494,0,0,0,0,Triglycerides to Total Lipids in Medium HDL percentage
+fid_23623,0,0,0,0,0,Triglycerides to Total Lipids in Medium LDL percentage
+fid_23598,0,0,0.02667335340871081,0,0,Triglycerides to Total Lipids in Medium VLDL percentage
+fid_23648,0.17339789543902034,0,0,0,0.06086358231163965,Triglycerides to Total Lipids in Small HDL percentage
+fid_23628,0,0.00333548678265223,0.02757078331359579,0.06308254074286399,0,Triglycerides to Total Lipids in Small LDL percentage
+fid_23603,0,0,0,0,0,Triglycerides to Total Lipids in Small VLDL percentage
+fid_23633,0,0.2051360846469514,0,0,0.10174283160827743,Triglycerides to Total Lipids in Very Large HDL percentage
+fid_23588,0,0,0,0,0,Triglycerides to Total Lipids in Very Large VLDL percentage
+fid_23608,0,0,0.14728823564178806,0,0,Triglycerides to Total Lipids in Very Small VLDL percentage
+fid_23469,0,0,0,0,0,Tyrosine
+fid_23403,0,0,0,0.16924537310069282,0,VLDL Cholesterol
+fid_23467,0,0,0,0,0,Valine

@@ -1,0 +1,2 @@
+rule,n_before,n_drop,n_after
+proteome_missingness_per_sample <= 50%,13411,2435,10976

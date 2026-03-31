@@ -12,9 +12,33 @@
     "metabolome": "NMR_metabolome_n249_SN13411_20250829.txt",
     "proteome": "NMR_proteome_n2923_SN13411_20250829.txt"
   },
-  "thresholds": {
-    "metab_feat": 0.05,
-    "prot_feat": 0.3,
-    "prot_row": 0.4
-  }
+"block6": {
+  "use_complete_cases": true,          // follow Wen/Xingyue: drop rows with missing values before CCA
+  "thr_missing_proteome": 0.05,        // ≤5% missing allowed *per sample* in proteome for complete-case set
+  "thr_missing_metabolome": 0.05,      // ≤5% missing allowed *per sample* in metabolome for complete-case set
+  "k_max": 10,                         // max number of canonical variates to compute
+  "ridge_lambda": 1e-4,                // small ridge to stabilize covariance inversion
+  "n_perms": 200,                      // permutation count for p-values (raise for final runs)
+  "topn": 25,                          // how many top loadings to save/display per component
+  "use_RS": true                       // try RSpectra SVD if available (faster), fall back otherwise
+},
+
+"thresholds": {
+  "metab_feat": 0.05,
+  "prot_feat": 0.3,
+  "prot_row": 0.4,
+
+  "assoc_alpha": 0.01,
+  "assoc_min_abs_r": 0.2,
+  "assoc_min_pair_n": 9500,
+  "assoc_require_overlap": true,
+  "assoc_per_node_top_k": 25,
+
+  "block3_pca_cumvar_target_metabolome": 0.80,
+  "block3_pca_cumvar_target_proteome": 0.70,
+  "block3_pca_min_k": 3,
+  "block3_pca_max_k": 10,
+  "block3_chi2_quantile": 0.999
+}
+
 }

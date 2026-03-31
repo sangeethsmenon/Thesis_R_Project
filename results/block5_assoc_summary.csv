@@ -1,2 +1,2 @@
-n_samples,n_proteins,n_metabolites,n_tests,alpha,min_abs_r,pearson_sig,pearson_sig_es,spearman_sig,overlap_sig
-10159,2919,249,726831,0.05,0.1,498829,161128,519028,482975
+n_samples,n_proteins,n_metabolites,n_tests,alpha,min_abs_r,min_pair_n,require_overlap,per_node_top_k,metab_quantile_filter,metab_quantile,min_edges_per_metab,pearson_sig,spearman_sig,edges_base_n,edges_pruned_n,edges_metab_balanced_n,edges_metab_balanced_pruned_n
+10536,2923,249,727827,0.01,0.2,9500,TRUE,TRUE,TRUE,0.95,25,451788,472860,26265,14478,5230,5230

@@ -1,2 +1,2 @@
-n_before,n_removed,n_after,k_pcs_metabolome,k_pcs_proteome,chi2_cut_metabolome,chi2_cut_proteome
-10452,293,10159,5,5,20.515005652432876,20.515005652432876
+n_before,n_removed,n_after,k_pcs_metabolome,k_pcs_proteome,cumvar_metabolome,cumvar_proteome,chi2_quantile,chi2_cut_metabolome,chi2_cut_proteome
+10976,440,10536,5,10,0.806,0.357,0.999,20.515005652432876,29.588298445074418

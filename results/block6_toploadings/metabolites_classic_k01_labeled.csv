@@ -1,0 +1,26 @@
+component,side,method,name,weight,abs_w,rank,label
+1,metabolites,classic,fid_23427,-54.08257775291409,54.08257775291409,1,Total Concentration of Lipoprotein Particles
+1,metabolites,classic,fid_23524,-46.95811081758739,46.95811081758739,2,Total Lipids in IDL
+1,metabolites,classic,fid_23606,-41.40448205987247,41.40448205987247,3,Cholesteryl Esters to Total Lipids in Very Small VLDL percentage
+1,metabolites,classic,fid_23640,-34.82599239048488,34.82599239048488,4,Cholesterol to Total Lipids in Medium HDL percentage
+1,metabolites,classic,fid_23608,-33.2393793840453,33.2393793840453,5,Triglycerides to Total Lipids in Very Small VLDL percentage
+1,metabolites,classic,fid_23430,31.427449547176803,31.427449547176803,6,Concentration of HDL Particles
+1,metabolites,classic,fid_23417,-30.434753570688866,30.434753570688866,7,Cholesteryl Esters in LDL
+1,metabolites,classic,fid_23593,30.26750350701285,30.26750350701285,8,Triglycerides to Total Lipids in Large VLDL percentage
+1,metabolites,classic,fid_23591,29.348842646717085,29.348842646717085,9,Cholesteryl Esters to Total Lipids in Large VLDL percentage
+1,metabolites,classic,fid_23573,28.80682508421321,28.80682508421321,10,Total Lipids in Small HDL
+1,metabolites,classic,fid_23641,27.37958809791782,27.37958809791782,11,Cholesteryl Esters to Total Lipids in Medium HDL percentage
+1,metabolites,classic,fid_23421,-24.525882110982373,24.525882110982373,12,Free Cholesterol in LDL
+1,metabolites,classic,fid_23453,-24.334531227855894,24.334531227855894,13,Polyunsaturated Fatty Acids to Total Fatty Acids percentage
+1,metabolites,classic,fid_23423,23.47487011682345,23.47487011682345,14,Total Lipids in Lipoprotein Particles
+1,metabolites,classic,fid_23615,23.4735648852943,23.4735648852943,15,Cholesterol to Total Lipids in Large LDL percentage
+1,metabolites,classic,fid_23545,-23.262830908135417,23.262830908135417,16,Total Lipids in Small LDL
+1,metabolites,classic,fid_23566,-23.135983685180072,23.135983685180072,17,Total Lipids in Medium HDL
+1,metabolites,classic,fid_23425,-22.472899093479004,22.472899093479004,18,Total Lipids in LDL
+1,metabolites,classic,fid_23595,22.02981204652731,22.02981204652731,19,Cholesterol to Total Lipids in Medium VLDL percentage
+1,metabolites,classic,fid_23442,21.735085692040883,21.735085692040883,20,Total Fatty Acids
+1,metabolites,classic,fid_23400,21.573483625219087,21.573483625219087,21,Total Cholesterol
+1,metabolites,classic,fid_23415,-21.187556112256985,21.187556112256985,22,Total Esterified Cholesterol
+1,metabolites,classic,fid_23626,-20.70222539048249,20.70222539048249,23,Cholesteryl Esters to Total Lipids in Small LDL percentage
+1,metabolites,classic,fid_23464,-20.188111239630015,20.188111239630015,24,Total Concentration of Branched-Chain Amino Acids (Leucine + Isoleucine + Valine)
+1,metabolites,classic,fid_23548,19.970578779655128,19.970578779655128,25,Cholesteryl Esters in Small LDL

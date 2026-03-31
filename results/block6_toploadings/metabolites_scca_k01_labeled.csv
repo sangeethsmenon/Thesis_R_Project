@@ -1,0 +1,26 @@
+component,side,method,name,weight,abs_w,rank,label
+1,metabolites,scca,fid_23458,-0.4189528300558806,0.4189528300558806,1,Polyunsaturated Fatty Acids to Monounsaturated Fatty Acids ratio
+1,metabolites,scca,fid_23578,0.4088147814475673,0.4088147814475673,2,Triglycerides in Small HDL
+1,metabolites,scca,fid_23454,0.3692995075170627,0.3692995075170627,3,Monounsaturated Fatty Acids to Total Fatty Acids percentage
+1,metabolites,scca,fid_23453,-0.27173664418929283,0.27173664418929283,4,Polyunsaturated Fatty Acids to Total Fatty Acids percentage
+1,metabolites,scca,fid_23636,-0.2490158727413831,0.2490158727413831,5,Cholesteryl Esters to Total Lipids in Large HDL percentage
+1,metabolites,scca,fid_23435,0.2122687169391548,0.2122687169391548,6,Triglycerides to Phosphoglycerides ratio
+1,metabolites,scca,fid_23494,0.1783713071023617,0.1783713071023617,7,Triglycerides in Very Large VLDL
+1,metabolites,scca,fid_23648,0.17339789543902034,0.17339789543902034,8,Triglycerides to Total Lipids in Small HDL percentage
+1,metabolites,scca,fid_23488,0.16758947835314267,0.16758947835314267,9,Concentration of Very Large VLDL Particles
+1,metabolites,scca,fid_23635,-0.16572825394663102,0.16572825394663102,10,Cholesterol to Total Lipids in Large HDL percentage
+1,metabolites,scca,fid_23407,0.16420438148209085,0.16420438148209085,11,Total Triglycerides
+1,metabolites,scca,fid_23622,-0.14419533997034517,0.14419533997034517,12,Free Cholesterol to Total Lipids in Medium LDL percentage
+1,metabolites,scca,fid_23550,0.13920852195029393,0.13920852195029393,13,Triglycerides in Small LDL
+1,metabolites,scca,fid_23489,0.13915143422769757,0.13915143422769757,14,Total Lipids in Very Large VLDL
+1,metabolites,scca,fid_23452,-0.12812774644916858,0.12812774644916858,15,Omega-6 Fatty Acids to Total Fatty Acids percentage
+1,metabolites,scca,fid_23408,0.115050820161117,0.115050820161117,16,Triglycerides in VLDL
+1,metabolites,scca,fid_23640,-0.11381662822402118,0.11381662822402118,17,Cholesterol to Total Lipids in Medium HDL percentage
+1,metabolites,scca,fid_23483,0.0981550674010147,0.0981550674010147,18,Phospholipids in Chylomicrons and Extremely Large VLDL
+1,metabolites,scca,fid_23480,0.09259845194910549,0.09259845194910549,19,Glycoprotein Acetyls
+1,metabolites,scca,fid_23481,0.09243216961953409,0.09243216961953409,20,Concentration of Chylomicrons and Extremely Large VLDL Particles
+1,metabolites,scca,fid_23447,0.09126993346880156,0.09126993346880156,21,Monounsaturated Fatty Acids
+1,metabolites,scca,fid_23497,0.09026396811394136,0.09026396811394136,22,Phospholipids in Large VLDL
+1,metabolites,scca,fid_23643,0.0885485194491494,0.0885485194491494,23,Triglycerides to Total Lipids in Medium HDL percentage
+1,metabolites,scca,fid_23543,0.08769211834482651,0.08769211834482651,24,Triglycerides in Medium LDL
+1,metabolites,scca,fid_23490,0.08592525490828558,0.08592525490828558,25,Phospholipids in Very Large VLDL

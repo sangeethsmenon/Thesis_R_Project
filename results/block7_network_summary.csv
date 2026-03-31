@@ -1,0 +1,2 @@
+alpha,min_abs_r,n_edges,n_nodes,n_modules_louvain,n_modules_walktrap,modularity_louvain
+0.01,0.2,14478,1415,6,3,0.42887939346208026

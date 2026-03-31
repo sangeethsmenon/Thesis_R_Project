@@ -1,0 +1,6 @@
+method,k,cancor,n,p_proteins,p_metabolites,penaltyx,penaltyy,complete_cases,thr_missing_proteome,thr_missing_metabolome
+sparse,1,0.6660256602299357,3642,1442,249,0.3,0.3,TRUE,0.05,0.05
+sparse,2,0.62116110826398,3642,1442,249,0.3,0.3,TRUE,0.05,0.05
+sparse,3,0.6490475495880675,3642,1442,249,0.3,0.3,TRUE,0.05,0.05
+sparse,4,0.5766239552435592,3642,1442,249,0.3,0.3,TRUE,0.05,0.05
+sparse,5,0.1093943832539071,3642,1442,249,0.3,0.3,TRUE,0.05,0.05

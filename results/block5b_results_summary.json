@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-01-05 02:37:06",
+  "thresholds": {
+    "q_pp": 0.01,
+    "r_pp": 0.3,
+    "q_fisher": 0.05,
+    "ont_go": "BP"
+  },
+  "inputs": {
+    "paths": {
+      "pp_edges": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results/block5b_pp_edges.csv",
+      "modules": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results/block5b_protein_modules.csv",
+      "pm_mapped": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results/block5b_pm_edges_with_protein_module.csv",
+      "fish": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results/block5b_metabolite_module_enrichment.csv",
+      "map_entrez": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results/block5b_symbol_to_entrez_map.csv",
+      "go_all": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results/block5b_enrichment_go_all.csv",
+      "kegg_all": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results/block5b_enrichment_kegg_all.csv",
+      "integr": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results/block5b_module_integrative_summary.csv"
+    },
+    "missing": []
+  },
+  "pp": {
+    "pp_edges_n": 380024,
+    "pp_nodes_n": 2369
+  },
+  "modules": {
+    "modules_n": 13,
+    "proteins_in_modules_n": 2369,
+    "module_size_min": 2,
+    "module_size_median": 3,
+    "module_size_max": 1099
+  },
+  "pm_mapped": {
+    "pm_edges_mapped_n": 5188,
+    "pm_unique_metabolites_n": 245,
+    "pm_unique_proteins_n": 257,
+    "pm_unique_modules_n": 3
+  },
+  "fisher": {
+    "fish_sig_pairs_n": 232,
+    "fish_sig_unique_metabolites_n": 232,
+    "fish_sig_unique_modules_n": 3
+  },
+  "mapping": {
+    "mapping_total_symbols": 2369,
+    "mapping_mapped_entrez": 2341,
+    "mapping_rate": 0.9882
+  },
+  "go": {
+    "modules_with_terms": 5,
+    "total_terms": 2732
+  },
+  "kegg": {
+    "modules_with_terms": 5,
+    "total_terms": 189
+  },
+  "integrative": {
+    "integr_rows": 13,
+    "integr_modules": 13
+  },
+  "outputs": {
+    "markdown": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results/block5b_results_summary.md",
+    "json": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results/block5b_results_summary.json",
+    "tables_dir": "C:/Users/sange/OneDrive/Documents/732A64 THESIS/Thesis_R_Project/results/block5b_results_summary_tables"
+  }
+}
